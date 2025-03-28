@@ -210,6 +210,15 @@ i{
     color: #3a3a3a;
 }
 
+/*media query for large or landscape phones */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+    
+}
+
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /*header*/
@@ -265,6 +274,12 @@ main{
     text-align: end;
     align-self: flex-end;
 }
+/*gallery*/
+#photos {
+    column-count: 3;
+    column-gap: 0;
+}
+
 } 
 
 /*for laptops and desktops*/
@@ -272,6 +287,11 @@ main{
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }  
+
+    #photos {
+        column-count: 4;
+        column-gap: 0;
+    }
 
 }
 
