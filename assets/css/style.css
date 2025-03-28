@@ -25,6 +25,13 @@ h1,h2,h3{
     letter-spacing: 2px;
     color: #252525;
 }
+
+/*for seo and search engines*/
+.hidden-heading{
+    display:none;
+}
+
+
 /*header*/
 header {
     background-color:#ffffff;
